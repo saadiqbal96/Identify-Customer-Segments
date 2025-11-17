@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>37ed32da922e4bc9894ec8b5df236dc5</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:73}"
+id="1mU4-W-RP1Xh" data-outputId="f044e4ad-8e56-48e9-bbfb-cdf773670ff2">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>uploaded <span class="op">=</span> files.upload()</span></code></pre></div>
+<div class="output display_data">
+
+     <input type="file" id="files-dd4f5b45-7e02-4857-8043-5d99239c1feb" name="files[]" multiple disabled
+        style="border:none" />
+     <output id="result-dd4f5b45-7e02-4857-8043-5d99239c1feb">
+      Upload widget is only available when the cell has been executed in the
+      current browser session. Please rerun this cell to enable.
+      </output>
+      <script>// Copyright 2017 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+/**
+ * @fileoverview Helpers for google.colab Python module.
+ */
+(function(scope) {
+function span(text, styleAttributes = {}) {
+  const element = document.createElement('span');
+  element.textContent = text;
+  for (const key of Object.keys(styleAttributes)) {
+    element.style[key] = styleAttributes[key];
+  }
+  return element;
+}
+
+// Max number of bytes which will be uploaded at a time.
+const MAX_PAYLOAD_SIZE = 100 * 1024;
+
+function _uploadFiles(inputId, outputId) {
+  const steps = uploadFilesStep(inputId, outputId);
+  const outputElement = document.getElementById(outputId);
+  // Cache steps on the outputElement to make it available for the next call
+  // to uploadFilesContinue from Python.
+  outputElement.steps = steps;
+
+  return _uploadFilesContinue(outputId);
+}
+
+// This is roughly an async generator (not supported in the browser yet),
+// where there are multiple asynchronous steps and the Python side is going
+// to poll for completion of each step.
+// This uses a Promise to block the python side on completion of each step,
+// then passes the result of the previous step as the input to the next step.
+function _uploadFilesContinue(outputId) {
+  const outputElement = document.getElementById(outputId);
+  const steps = outputElement.steps;
+
+  const next = steps.next(outputElement.lastPromiseValue);
+  return Promise.resolve(next.value.promise).then((value) => {
+    // Cache the last promise value to make it available to the next
+    // step of the generator.
+    outputElement.lastPromiseValue = value;
+    return next.value.response;
+  });
+}
+
+/**
+ * Generator function which is called between each async step of the upload
+ * process.
+ * @param {string} inputId Element ID of the input file picker element.
+ * @param {string} outputId Element ID of the output display.
+ * @return {!Iterable<!Object>} Iterable of next steps.
+ */
+function* uploadFilesStep(inputId, outputId) {
+  const inputElement = document.getElementById(inputId);
+  inputElement.disabled = false;
+
+  const outputElement = document.getElementById(outputId);
+  outputElement.innerHTML = '';
+
+  const pickedPromise = new Promise((resolve) => {
+    inputElement.addEventListener('change', (e) => {
+      resolve(e.target.files);
+    });
+  });
+
+  const cancel = document.createElement('button');
+  inputElement.parentElement.appendChild(cancel);
+  cancel.textContent = 'Cancel upload';
+  const cancelPromise = new Promise((resolve) => {
+    cancel.onclick = () => {
+      resolve(null);
+    };
+  });
+
+  // Wait for the user to pick the files.
+  const files = yield {
+    promise: Promise.race([pickedPromise, cancelPromise]),
+    response: {
+      action: 'starting',
+    }
+  };
+
+  cancel.remove();
+
+  // Disable the input element since further picks are not allowed.
+  inputElement.disabled = true;
+
+  if (!files) {
+    return {
+      response: {
+        action: 'complete',
+      }
+    };
+  }
+
+  for (const file of files) {
+    const li = document.createElement('li');
+    li.append(span(file.name, {fontWeight: 'bold'}));
+    li.append(span(
+        `(${file.type || 'n/a'}) - ${file.size} bytes, ` +
+        `last modified: ${
+            file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() :
+                                    'n/a'} - `));
+    const percent = span('0% done');
+    li.appendChild(percent);
+
+    outputElement.appendChild(li);
+
+    const fileDataPromise = new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        resolve(e.target.result);
+      };
+      reader.readAsArrayBuffer(file);
+    });
+    // Wait for the data to be ready.
+    let fileData = yield {
+      promise: fileDataPromise,
+      response: {
+        action: 'continue',
+      }
+    };
+
+    // Use a chunked sending to avoid message size limits. See b/62115660.
+    let position = 0;
+    do {
+      const length = Math.min(fileData.byteLength - position, MAX_PAYLOAD_SIZE);
+      const chunk = new Uint8Array(fileData, position, length);
+      position += length;
+
+      const base64 = btoa(String.fromCharCode.apply(null, chunk));
+      yield {
+        response: {
+          action: 'append',
+          file: file.name,
+          data: base64,
+        },
+      };
+
+      let percentDone = fileData.byteLength === 0 ?
+          100 :
+          Math.round((position / fileData.byteLength) * 100);
+      percent.textContent = `${percentDone}% done`;
+
+    } while (position < fileData.byteLength);
+  }
+
+  // All done.
+  yield {
+    response: {
+      action: 'complete',
+    }
+  };
+}
+
+scope.google = scope.google || {};
+scope.google.colab = scope.google.colab || {};
+scope.google.colab._files = {
+  _uploadFiles,
+  _uploadFilesContinue,
+};
+})(self);
+</script> 
+</div>
+<div class="output stream stdout">
+<pre><code>Saving data.zip to data.zip
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5WaFL7eoP2k7" data-outputId="a6439bb9-0b86-49f3-a084-a4d3145bfc88">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>unzip data.<span class="bu">zip</span> <span class="op">-</span>d <span class="op">/</span>content<span class="op">/</span>data<span class="op">/</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Archive:  data.zip
+   creating: /content/data/data/
+  inflating: /content/data/data/AZDIAS_Feature_Summary.csv  
+  inflating: /content/data/data/Data_Dictionary.md  
+  inflating: /content/data/data/Udacity_AZDIAS_Subset.csv  
+  inflating: /content/data/data/Udacity_CUSTOMERS_Subset.csv  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="HA2RK1UdP4_m" data-outputId="a5ccc154-a0cf-476f-bc2d-a21a3832f7de">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>ls <span class="op">-</span>R <span class="op">/</span>content</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content:
+data  data.zip	sample_data
+
+/content/data:
+data
+
+/content/data/data:
+AZDIAS_Feature_Summary.csv  Udacity_AZDIAS_Subset.csv
+Data_Dictionary.md	    Udacity_CUSTOMERS_Subset.csv
+
+/content/sample_data:
+anscombe.json		      mnist_test.csv
+california_housing_test.csv   mnist_train_small.csv
+california_housing_train.csv  README.md
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8" id="nMbA7fKtRAu8">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&quot;whitegrid&quot;</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>pd.options.display.max_columns <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>pd.options.display.max_rows <span class="op">=</span> <span class="dv">200</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cQKhSqM8RBYV" data-outputId="f9819322-4476-413c-dc7d-dd5b7e7a8592">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>DATA_DIR <span class="op">=</span> <span class="st">&quot;/content/data/data&quot;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>AZDIAS_PATH <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>DATA_DIR<span class="sc">}</span><span class="ss">/Udacity_AZDIAS_Subset.csv&quot;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>CUSTOMERS_PATH <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>DATA_DIR<span class="sc">}</span><span class="ss">/Udacity_CUSTOMERS_Subset.csv&quot;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>FEAT_INFO_PATH <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>DATA_DIR<span class="sc">}</span><span class="ss">/AZDIAS_Feature_Summary.csv&quot;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>AZDIAS_PATH, CUSTOMERS_PATH, FEAT_INFO_PATH</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>(&#39;/content/data/data/Udacity_AZDIAS_Subset.csv&#39;,
+ &#39;/content/data/data/Udacity_CUSTOMERS_Subset.csv&#39;,
+ &#39;/content/data/data/AZDIAS_Feature_Summary.csv&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="10"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="qa0AIM4nREb1" data-outputId="96221255-dfcf-45a1-8b6c-2bd5206b16be">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>azdias <span class="op">=</span> pd.read_csv(AZDIAS_PATH, sep<span class="op">=</span><span class="st">&quot;;&quot;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>customers <span class="op">=</span> pd.read_csv(CUSTOMERS_PATH, sep<span class="op">=</span><span class="st">&quot;;&quot;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>feat_info <span class="op">=</span> pd.read_csv(FEAT_INFO_PATH, sep<span class="op">=</span><span class="st">&quot;;&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>azdias.shape, customers.shape, feat_info.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>((891221, 85), (191652, 85), (85, 4))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="wpfdE168RGUM" data-outputId="965664f7-d1c1-4032-d379-a7aaa14c9d73">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>azdias.head()</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>azdias.info()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>azdias.isna().mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 891221 entries, 0 to 891220
+Data columns (total 85 columns):
+ #   Column                 Non-Null Count   Dtype  
+---  ------                 --------------   -----  
+ 0   AGER_TYP               891221 non-null  int64  
+ 1   ALTERSKATEGORIE_GROB   891221 non-null  int64  
+ 2   ANREDE_KZ              891221 non-null  int64  
+ 3   CJT_GESAMTTYP          886367 non-null  float64
+ 4   FINANZ_MINIMALIST      891221 non-null  int64  
+ 5   FINANZ_SPARER          891221 non-null  int64  
+ 6   FINANZ_VORSORGER       891221 non-null  int64  
+ 7   FINANZ_ANLEGER         891221 non-null  int64  
+ 8   FINANZ_UNAUFFAELLIGER  891221 non-null  int64  
+ 9   FINANZ_HAUSBAUER       891221 non-null  int64  
+ 10  FINANZTYP              891221 non-null  int64  
+ 11  GEBURTSJAHR            891221 non-null  int64  
+ 12  GFK_URLAUBERTYP        886367 non-null  float64
+ 13  GREEN_AVANTGARDE       891221 non-null  int64  
+ 14  HEALTH_TYP             891221 non-null  int64  
+ 15  LP_LEBENSPHASE_FEIN    886367 non-null  float64
+ 16  LP_LEBENSPHASE_GROB    886367 non-null  float64
+ 17  LP_FAMILIE_FEIN        886367 non-null  float64
+ 18  LP_FAMILIE_GROB        886367 non-null  float64
+ 19  LP_STATUS_FEIN         886367 non-null  float64
+ 20  LP_STATUS_GROB         886367 non-null  float64
+ 21  NATIONALITAET_KZ       891221 non-null  int64  
+ 22  PRAEGENDE_JUGENDJAHRE  891221 non-null  int64  
+ 23  RETOURTYP_BK_S         886367 non-null  float64
+ 24  SEMIO_SOZ              891221 non-null  int64  
+ 25  SEMIO_FAM              891221 non-null  int64  
+ 26  SEMIO_REL              891221 non-null  int64  
+ 27  SEMIO_MAT              891221 non-null  int64  
+ 28  SEMIO_VERT             891221 non-null  int64  
+ 29  SEMIO_LUST             891221 non-null  int64  
+ 30  SEMIO_ERL              891221 non-null  int64  
+ 31  SEMIO_KULT             891221 non-null  int64  
+ 32  SEMIO_RAT              891221 non-null  int64  
+ 33  SEMIO_KRIT             891221 non-null  int64  
+ 34  SEMIO_DOM              891221 non-null  int64  
+ 35  SEMIO_KAEM             891221 non-null  int64  
+ 36  SEMIO_PFLICHT          891221 non-null  int64  
+ 37  SEMIO_TRADV            891221 non-null  int64  
+ 38  SHOPPER_TYP            891221 non-null  int64  
+ 39  SOHO_KZ                817722 non-null  float64
+ 40  TITEL_KZ               817722 non-null  float64
+ 41  VERS_TYP               891221 non-null  int64  
+ 42  ZABEOTYP               891221 non-null  int64  
+ 43  ALTER_HH               817722 non-null  float64
+ 44  ANZ_PERSONEN           817722 non-null  float64
+ 45  ANZ_TITEL              817722 non-null  float64
+ 46  HH_EINKOMMEN_SCORE     872873 non-null  float64
+ 47  KK_KUNDENTYP           306609 non-null  float64
+ 48  W_KEIT_KIND_HH         783619 non-null  float64
+ 49  WOHNDAUER_2008         817722 non-null  float64
+ 50  ANZ_HAUSHALTE_AKTIV    798073 non-null  float64
+ 51  ANZ_HH_TITEL           794213 non-null  float64
+ 52  GEBAEUDETYP            798073 non-null  float64
+ 53  KONSUMNAEHE            817252 non-null  float64
+ 54  MIN_GEBAEUDEJAHR       798073 non-null  float64
+ 55  OST_WEST_KZ            798073 non-null  object 
+ 56  WOHNLAGE               798073 non-null  float64
+ 57  CAMEO_DEUG_2015        792242 non-null  object 
+ 58  CAMEO_DEU_2015         792242 non-null  object 
+ 59  CAMEO_INTL_2015        792242 non-null  object 
+ 60  KBA05_ANTG1            757897 non-null  float64
+ 61  KBA05_ANTG2            757897 non-null  float64
+ 62  KBA05_ANTG3            757897 non-null  float64
+ 63  KBA05_ANTG4            757897 non-null  float64
+ 64  KBA05_BAUMAX           757897 non-null  float64
+ 65  KBA05_GBZ              757897 non-null  float64
+ 66  BALLRAUM               797481 non-null  float64
+ 67  EWDICHTE               797481 non-null  float64
+ 68  INNENSTADT             797481 non-null  float64
+ 69  GEBAEUDETYP_RASTER     798066 non-null  float64
+ 70  KKK                    770025 non-null  float64
+ 71  MOBI_REGIO             757897 non-null  float64
+ 72  ONLINE_AFFINITAET      886367 non-null  float64
+ 73  REGIOTYP               770025 non-null  float64
+ 74  KBA13_ANZAHL_PKW       785421 non-null  float64
+ 75  PLZ8_ANTG1             774706 non-null  float64
+ 76  PLZ8_ANTG2             774706 non-null  float64
+ 77  PLZ8_ANTG3             774706 non-null  float64
+ 78  PLZ8_ANTG4             774706 non-null  float64
+ 79  PLZ8_BAUMAX            774706 non-null  float64
+ 80  PLZ8_HHZ               774706 non-null  float64
+ 81  PLZ8_GBZ               774706 non-null  float64
+ 82  ARBEIT                 794005 non-null  float64
+ 83  ORTSGR_KLS9            794005 non-null  float64
+ 84  RELAT_AB               794005 non-null  float64
+dtypes: float64(49), int64(32), object(4)
+memory usage: 578.0+ MB
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="11">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>KK_KUNDENTYP</th>
+      <td>0.655967</td>
+    </tr>
+    <tr>
+      <th>KBA05_BAUMAX</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG2</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>MOBI_REGIO</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_GBZ</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG1</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG4</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG3</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KKK</th>
+      <td>0.135989</td>
+    </tr>
+    <tr>
+      <th>REGIOTYP</th>
+      <td>0.135989</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> float64</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:554}"
+id="iCNjDZktRjUO" data-outputId="94286ff9-f7a4-4c1d-943a-ecd0bb8fa3c2">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>azdias_clean <span class="op">=</span> azdias.copy()</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>missing_value_map <span class="op">=</span> {}</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, row <span class="kw">in</span> feat_info.iterrows():</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    col <span class="op">=</span> row[<span class="st">&quot;attribute&quot;</span>]</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    raw_codes <span class="op">=</span> row[<span class="st">&quot;missing_or_unknown&quot;</span>]</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If empty or NaN → no missing codes</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> pd.isna(raw_codes) <span class="kw">or</span> raw_codes.strip() <span class="op">==</span> <span class="st">&quot;&quot;</span>:</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>        missing_value_map[col] <span class="op">=</span> []</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Try to parse the values safely</span></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># CASE 1: It&#39;s a list-like string: &quot;[-1, 0]&quot;</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> raw_codes.startswith(<span class="st">&quot;[&quot;</span>) <span class="kw">and</span> raw_codes.endswith(<span class="st">&quot;]&quot;</span>):</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Remove brackets and split</span></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> raw_codes.strip(<span class="st">&quot;[]&quot;</span>).split(<span class="st">&quot;,&quot;</span>)</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> [c.strip().strip(<span class="st">&quot;&#39;&quot;</span>).strip(<span class="st">&#39;&quot;&#39;</span>) <span class="cf">for</span> c <span class="kw">in</span> codes]</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>            <span class="co"># CASE 2: It&#39;s a single value: &quot;-1&quot;</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> [raw_codes.strip()]</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Anything else → treat as single raw value</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>        codes <span class="op">=</span> [raw_codes.strip()]</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert numeric strings to integers where possible</span></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    cleaned_codes <span class="op">=</span> []</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> c <span class="kw">in</span> codes:</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>            cleaned_codes.append(<span class="bu">int</span>(c))</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>            cleaned_codes.append(c)</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>    missing_value_map[col] <span class="op">=</span> cleaned_codes</span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply missing value replacements</span></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col, codes <span class="kw">in</span> missing_value_map.items():</span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="kw">in</span> azdias_clean.columns <span class="kw">and</span> <span class="bu">len</span>(codes) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>        azdias_clean[col] <span class="op">=</span> azdias_clean[col].replace(codes, np.nan)</span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Show updated missingness</span></span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>azdias_clean.isna().mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">15</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>TITEL_KZ</th>
+      <td>0.997576</td>
+    </tr>
+    <tr>
+      <th>AGER_TYP</th>
+      <td>0.769554</td>
+    </tr>
+    <tr>
+      <th>KK_KUNDENTYP</th>
+      <td>0.655967</td>
+    </tr>
+    <tr>
+      <th>KBA05_BAUMAX</th>
+      <td>0.534687</td>
+    </tr>
+    <tr>
+      <th>GEBURTSJAHR</th>
+      <td>0.440203</td>
+    </tr>
+    <tr>
+      <th>ALTER_HH</th>
+      <td>0.348137</td>
+    </tr>
+    <tr>
+      <th>KKK</th>
+      <td>0.177357</td>
+    </tr>
+    <tr>
+      <th>REGIOTYP</th>
+      <td>0.177357</td>
+    </tr>
+    <tr>
+      <th>W_KEIT_KIND_HH</th>
+      <td>0.166051</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG1</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_GBZ</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG2</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG3</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG4</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>MOBI_REGIO</th>
+      <td>0.149597</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> float64</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="7-7FVQGiR9FC" data-outputId="0dd42a47-7ab7-414a-cc57-8b3dc2a16970">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>missing_perc <span class="op">=</span> azdias_clean.isna().mean()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">5</span>))</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.hist(missing_perc, bins<span class="op">=</span><span class="dv">30</span>, edgecolor<span class="op">=</span><span class="st">&quot;black&quot;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Percentage of Missing Values&quot;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Number of Columns&quot;</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribution of Missing Data by Column&quot;</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>missing_perc.sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">20</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/5b0e506b6ee911d6e4c20b8147dd9f322f3370c3.png" /></p>
+</div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>TITEL_KZ</th>
+      <td>0.997576</td>
+    </tr>
+    <tr>
+      <th>AGER_TYP</th>
+      <td>0.769554</td>
+    </tr>
+    <tr>
+      <th>KK_KUNDENTYP</th>
+      <td>0.655967</td>
+    </tr>
+    <tr>
+      <th>KBA05_BAUMAX</th>
+      <td>0.534687</td>
+    </tr>
+    <tr>
+      <th>GEBURTSJAHR</th>
+      <td>0.440203</td>
+    </tr>
+    <tr>
+      <th>ALTER_HH</th>
+      <td>0.348137</td>
+    </tr>
+    <tr>
+      <th>KKK</th>
+      <td>0.177357</td>
+    </tr>
+    <tr>
+      <th>REGIOTYP</th>
+      <td>0.177357</td>
+    </tr>
+    <tr>
+      <th>W_KEIT_KIND_HH</th>
+      <td>0.166051</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG1</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_GBZ</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG2</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG3</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>KBA05_ANTG4</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>MOBI_REGIO</th>
+      <td>0.149597</td>
+    </tr>
+    <tr>
+      <th>PLZ8_ANTG2</th>
+      <td>0.130736</td>
+    </tr>
+    <tr>
+      <th>PLZ8_ANTG3</th>
+      <td>0.130736</td>
+    </tr>
+    <tr>
+      <th>PLZ8_BAUMAX</th>
+      <td>0.130736</td>
+    </tr>
+    <tr>
+      <th>PLZ8_ANTG4</th>
+      <td>0.130736</td>
+    </tr>
+    <tr>
+      <th>PLZ8_HHZ</th>
+      <td>0.130736</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> float64</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="b2xPxJxxSOcx" data-outputId="876d04dd-b99b-4d15-d635-250882e6890f">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>threshold <span class="op">=</span> <span class="fl">0.30</span>  <span class="co"># 30% missing cutoff</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>high_missing_cols <span class="op">=</span> missing_perc[missing_perc <span class="op">&gt;</span> threshold].index.tolist()</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Columns to drop (&gt;30% missing):&quot;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>high_missing_cols</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Columns to drop (&gt;30% missing):
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>[&#39;AGER_TYP&#39;,
+ &#39;GEBURTSJAHR&#39;,
+ &#39;TITEL_KZ&#39;,
+ &#39;ALTER_HH&#39;,
+ &#39;KK_KUNDENTYP&#39;,
+ &#39;KBA05_BAUMAX&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5Zi8lmCYSWO2" data-outputId="042e09bb-53c4-4289-993d-371b191bc959">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>azdias_reduced <span class="op">=</span> azdias_clean.drop(columns<span class="op">=</span>high_missing_cols)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>azdias_reduced.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>(891221, 79)</code></pre>
+</div>
+</div>
+<section id="discussion-112--missing-data-by-columns"
+class="cell markdown" id="jKz8aOwpkLPq">
+<h3>Discussion 1.1.2 — Missing Data by Columns</h3>
+<p>After converting all “unknown” value codes into NaN using the feature
+summary, I evaluated the percentage of missing values per feature. A few
+columns exhibited extremely high missingness (&gt; 30%), including:</p>
+<ul>
+<li>AGER_TYP<br />
+</li>
+<li>GEBURTSJAHR<br />
+</li>
+<li>TITEL_KZ<br />
+</li>
+<li>ALTER_HH<br />
+</li>
+<li>KK_KUNDENTYP<br />
+</li>
+<li>KBA05_BAUMAX</li>
+</ul>
+<p>These outliers were removed from the dataset.<br />
+Remaining features showed patterns: for example, PLZ8-region indicators
+and KBA05 mobility attributes tended to share missingness, suggesting
+non-random missingness caused by unavailable regional data.</p>
+<p>Removing the outlier features preserved the majority of information
+while maintaining data quality.</p>
+</section>
+<div class="cell code" data-execution_count="18"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:335}"
+id="GwKP-hs_TEal" data-outputId="7da1fbe0-83ec-4541-a98c-ab9ed9719c16">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count missing values per row</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>row_missing_counts <span class="op">=</span> azdias_reduced.isna().<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Basic stats</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>row_missing_counts.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891221.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>5.649894</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>13.234687</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>3.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>49.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> float64</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="XUb_xbzYTQmu" data-outputId="a73072ef-acda-4906-e982-2c9730f8b935">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Threshold for too many missing values</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>row_threshold <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Split rows</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>low_missing <span class="op">=</span> azdias_reduced[row_missing_counts <span class="op">&lt;=</span> row_threshold]</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>high_missing <span class="op">=</span> azdias_reduced[row_missing_counts <span class="op">&gt;</span> row_threshold]</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>low_missing.shape, high_missing.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>((780153, 79), (111068, 79))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="Pbz3rdV7TaYW" data-outputId="95a6236a-8f91-421c-839d-de2b5137f32c">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compare_distributions(col):</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">14</span>,<span class="dv">4</span>))</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    sns.countplot(x<span class="op">=</span>low_missing[col], ax<span class="op">=</span>axes[<span class="dv">0</span>])</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">0</span>].set_title(<span class="ss">f&quot;Low-missing rows — </span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">0</span>].tick_params(axis<span class="op">=</span><span class="st">&#39;x&#39;</span>, rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>    sns.countplot(x<span class="op">=</span>high_missing[col], ax<span class="op">=</span>axes[<span class="dv">1</span>])</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">1</span>].set_title(<span class="ss">f&quot;High-missing rows — </span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">1</span>].tick_params(axis<span class="op">=</span><span class="st">&#39;x&#39;</span>, rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Columns to compare</span></span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>cols_to_compare <span class="op">=</span> [</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;GREEN_AVANTGARDE&quot;</span>,</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;SEMIO_SOZ&quot;</span>,</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;SEMIO_REL&quot;</span>,</span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;HEALTH_TYP&quot;</span>,</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LP_STATUS_GROB&quot;</span></span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> c <span class="kw">in</span> cols_to_compare:</span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a>    compare_distributions(c)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/313719ff1071a4fa0f0bbf4b3c62a2e884cdcb48.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/0715a8d977e0894205fc4d1e251cbaf9738b9a53.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/41953e316a74aa36b5e4e9a57c747ed2a66b85fb.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/f670db89aff258e9916513c9427dbd90fe72d8e6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/2bd6040c3d2a77481bc174e05da9ea411fcc4143.png" /></p>
+</div>
+</div>
+<section id="discussion-assess-missing-data-in-each-row"
+class="cell markdown" id="59CkxOEhTqsV">
+<h3>Discussion: Assess Missing Data in Each Row</h3>
+<p>I examined the number of missing values per row to identify
+individuals with unusually incomplete demographic profiles. The
+distribution showed:</p>
+<ul>
+<li><strong>Median missing values = 0</strong></li>
+<li><strong>75th percentile = 3 missing values</strong></li>
+<li><strong>Mean = 5.65</strong></li>
+<li><strong>Maximum = 49</strong></li>
+</ul>
+<p>This indicates that most rows have complete data, while a smaller
+subset contains a very high number of missing entries.</p>
+<p>To separate high- and low-quality records, I chose a threshold of
+<strong>10 missing values</strong>. Rows with more than 10 missing
+fields were classified as "high-missing" and temporarily set aside. This
+resulted in:</p>
+<ul>
+<li><strong>780,153 rows</strong> with ≤ 10 missing values (kept for
+modeling)</li>
+<li><strong>111,068 rows</strong> with &gt; 10 missing values (set
+aside)</li>
+</ul>
+<p>Next, I compared the distributions of five well-populated features
+between the two groups:</p>
+<ul>
+<li><code>GREEN_AVANTGARDE</code></li>
+<li><code>SEMIO_SOZ</code></li>
+<li><code>SEMIO_REL</code></li>
+<li><code>HEALTH_TYP</code></li>
+<li><code>LP_STATUS_GROB</code></li>
+</ul>
+<p>The side-by-side countplots showed that feature distributions in
+high-missing rows were <strong>very similar</strong> to those in the
+low-missing group. This suggests that rows with many missing values do
+<strong>not</strong> appear to represent a fundamentally different
+demographic segment — they simply contain less complete information.</p>
+<p>Based on these findings, I proceeded with the <strong>low-missing
+subset</strong> for the rest of the preprocessing and modeling pipeline,
+while keeping track of the number of excluded rows for later
+comparison.</p>
+</section>
+<div class="cell code" data-execution_count="21"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:272}"
+id="JlGVDc5QUQ4Q" data-outputId="de58942f-0554-4269-c9d6-6dae794771a1">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># How many features are there of each data type?</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>feat_info[<span class="st">&quot;type&quot;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+    <tr>
+      <th>type</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ordinal</th>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>categorical</th>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>numeric</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>mixed</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>interval</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="9S6FVAHGUauq" data-outputId="7d5c2995-e423-4eff-fda5-6264c719c7fe">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get categorical features only</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>categorical_cols <span class="op">=</span> feat_info[feat_info[<span class="st">&quot;type&quot;</span>] <span class="op">==</span> <span class="st">&quot;categorical&quot;</span>][<span class="st">&quot;attribute&quot;</span>].tolist()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Keep only those that appear in the reduced dataset</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>categorical_cols <span class="op">=</span> [c <span class="cf">for</span> c <span class="kw">in</span> categorical_cols <span class="cf">if</span> c <span class="kw">in</span> azdias_reduced.columns]</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>categorical_cols</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<pre><code>[&#39;ANREDE_KZ&#39;,
+ &#39;CJT_GESAMTTYP&#39;,
+ &#39;FINANZTYP&#39;,
+ &#39;GFK_URLAUBERTYP&#39;,
+ &#39;GREEN_AVANTGARDE&#39;,
+ &#39;LP_FAMILIE_FEIN&#39;,
+ &#39;LP_FAMILIE_GROB&#39;,
+ &#39;LP_STATUS_FEIN&#39;,
+ &#39;LP_STATUS_GROB&#39;,
+ &#39;NATIONALITAET_KZ&#39;,
+ &#39;SHOPPER_TYP&#39;,
+ &#39;SOHO_KZ&#39;,
+ &#39;VERS_TYP&#39;,
+ &#39;ZABEOTYP&#39;,
+ &#39;GEBAEUDETYP&#39;,
+ &#39;OST_WEST_KZ&#39;,
+ &#39;CAMEO_DEUG_2015&#39;,
+ &#39;CAMEO_DEU_2015&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="23"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="4FDKJWemUgvy" data-outputId="aabc0dd1-210c-4145-8b76-12e2dcea8c80">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> categorical_cols:</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(col, <span class="st">&quot;:&quot;</span>, azdias_reduced[col].nunique(), <span class="st">&quot;unique values&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>ANREDE_KZ : 2 unique values
+CJT_GESAMTTYP : 6 unique values
+FINANZTYP : 6 unique values
+GFK_URLAUBERTYP : 12 unique values
+GREEN_AVANTGARDE : 2 unique values
+LP_FAMILIE_FEIN : 11 unique values
+LP_FAMILIE_GROB : 5 unique values
+LP_STATUS_FEIN : 10 unique values
+LP_STATUS_GROB : 5 unique values
+NATIONALITAET_KZ : 3 unique values
+SHOPPER_TYP : 4 unique values
+SOHO_KZ : 2 unique values
+VERS_TYP : 2 unique values
+ZABEOTYP : 6 unique values
+GEBAEUDETYP : 7 unique values
+OST_WEST_KZ : 2 unique values
+CAMEO_DEUG_2015 : 9 unique values
+CAMEO_DEU_2015 : 44 unique values
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="dJsMwZWlVCth" data-outputId="a4fbee6b-e0e5-40e0-e1c3-9f0c6193f311">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Identify binary categorical columns</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>binary_categoricals <span class="op">=</span> [</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;ANREDE_KZ&quot;</span>,</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;GREEN_AVANTGARDE&quot;</span>,</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;SOHO_KZ&quot;</span>,</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;VERS_TYP&quot;</span>,</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;OST_WEST_KZ&quot;</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Identify multi-level categorical columns (to drop)</span></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>multi_categoricals <span class="op">=</span> [</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;CJT_GESAMTTYP&quot;</span>,</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;FINANZTYP&quot;</span>,</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;GFK_URLAUBERTYP&quot;</span>,</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LP_FAMILIE_FEIN&quot;</span>,</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LP_FAMILIE_GROB&quot;</span>,</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LP_STATUS_FEIN&quot;</span>,</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LP_STATUS_GROB&quot;</span>,</span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;NATIONALITAET_KZ&quot;</span>,</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;SHOPPER_TYP&quot;</span>,</span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;ZABEOTYP&quot;</span>,</span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;GEBAEUDETYP&quot;</span>,</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;CAMEO_DEUG_2015&quot;</span>,</span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;CAMEO_DEU_2015&quot;</span></span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop multi-level categorical features</span></span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a>azdias_encoded <span class="op">=</span> azdias_reduced.drop(columns<span class="op">=</span>multi_categoricals, errors<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb30-29"><a href="#cb30-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-30"><a href="#cb30-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Re-encode OST_WEST_KZ (&#39;W&#39;/&#39;O&#39;) to numeric</span></span>
+<span id="cb30-31"><a href="#cb30-31" aria-hidden="true" tabindex="-1"></a>azdias_encoded[<span class="st">&quot;OST_WEST_KZ&quot;</span>] <span class="op">=</span> azdias_encoded[<span class="st">&quot;OST_WEST_KZ&quot;</span>].replace({<span class="st">&quot;W&quot;</span>: <span class="dv">1</span>, <span class="st">&quot;O&quot;</span>: <span class="dv">0</span>})</span>
+<span id="cb30-32"><a href="#cb30-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-33"><a href="#cb30-33" aria-hidden="true" tabindex="-1"></a>azdias_encoded.shape</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/tmp/ipython-input-2255283756.py:31: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option(&#39;future.no_silent_downcasting&#39;, True)`
+  azdias_encoded[&quot;OST_WEST_KZ&quot;] = azdias_encoded[&quot;OST_WEST_KZ&quot;].replace({&quot;W&quot;: 1, &quot;O&quot;: 0})
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>(891221, 66)</code></pre>
+</div>
+</div>
+<section id="discussion-re-encode-categorical-features"
+class="cell markdown" id="5KxWORZ5lET3">
+<h3>Discussion: Re-Encode Categorical Features</h3>
+<p>Using the feature summary file, I identified all categorical
+attributes and inspected the number of unique values for each.
+Categorical features with exactly two levels were retained as binary
+variables: <code>ANREDE_KZ</code>, <code>GREEN_AVANTGARDE</code>,
+<code>SOHO_KZ</code>, <code>VERS_TYP</code>, and
+<code>OST_WEST_KZ</code>. The feature <code>OST_WEST_KZ</code> was
+originally encoded as the strings 'O' and 'W', so I re-encoded these
+into numeric values (0 = East, 1 = West).</p>
+<p>All categorical variables with three or more categories (e.g.,
+<code>CJT_GESAMTTYP</code>, <code>FINANZTYP</code>,
+<code>GFK_URLAUBERTYP</code>, etc.) were dropped. While one-hot encoding
+is possible, it would have significantly increased the dimensionality of
+the dataset and complicated the PCA and clustering analysis. The Udacity
+guidelines recommend simplifying the categorical space, so these
+variables were removed.</p>
+</section>
+<div class="cell code" data-execution_count="25"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="oQiep1SVVRp8" data-outputId="fcbed7b1-6e38-4c62-cb5e-197c0b1c4633">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make a working copy</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>azdias_mixed <span class="op">=</span> azdias_encoded.copy()</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># ------------------------</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. PRAEGENDE_JUGENDJAHRE</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="co"># ------------------------</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extract_decade(val):</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">int</span>(val) <span class="op">//</span> <span class="dv">10</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extract_movement(val):</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">int</span>(val) <span class="op">%</span> <span class="dv">2</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>azdias_mixed[<span class="st">&quot;PJJ_DECADE&quot;</span>] <span class="op">=</span> azdias_mixed[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>].<span class="bu">apply</span>(extract_decade)</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>azdias_mixed[<span class="st">&quot;PJJ_MOVEMENT&quot;</span>] <span class="op">=</span> azdias_mixed[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>].<span class="bu">apply</span>(extract_movement)</span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop original mixed column</span></span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>azdias_mixed <span class="op">=</span> azdias_mixed.drop(columns<span class="op">=</span>[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>], errors<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a><span class="co"># ------------------------</span></span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. CAMEO_INTL_2015</span></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a><span class="co"># ------------------------</span></span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cameo_split_wealth(val):</span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">int</span>(<span class="bu">str</span>(val)[<span class="dv">0</span>])</span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cameo_split_lifestage(val):</span>
+<span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">int</span>(<span class="bu">str</span>(val)[<span class="dv">1</span>])</span>
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb33-41"><a href="#cb33-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb33-42"><a href="#cb33-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-43"><a href="#cb33-43" aria-hidden="true" tabindex="-1"></a>azdias_mixed[<span class="st">&quot;CAMEO_WEALTH&quot;</span>] <span class="op">=</span> azdias_mixed[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>].<span class="bu">apply</span>(cameo_split_wealth)</span>
+<span id="cb33-44"><a href="#cb33-44" aria-hidden="true" tabindex="-1"></a>azdias_mixed[<span class="st">&quot;CAMEO_LIFESTAGE&quot;</span>] <span class="op">=</span> azdias_mixed[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>].<span class="bu">apply</span>(cameo_split_lifestage)</span>
+<span id="cb33-45"><a href="#cb33-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-46"><a href="#cb33-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop original mixed column</span></span>
+<span id="cb33-47"><a href="#cb33-47" aria-hidden="true" tabindex="-1"></a>azdias_mixed <span class="op">=</span> azdias_mixed.drop(columns<span class="op">=</span>[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>], errors<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb33-48"><a href="#cb33-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-49"><a href="#cb33-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Check updated shape</span></span>
+<span id="cb33-50"><a href="#cb33-50" aria-hidden="true" tabindex="-1"></a>azdias_mixed.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>(891221, 68)</code></pre>
+</div>
+</div>
+<section id="discussion--engineering-mixed-type-features"
+class="cell markdown" id="bk6TZDRSlxRE">
+<h3>Discussion — Engineering Mixed-Type Features</h3>
+<p>Two mixed-type features were engineered for numerical usability:</p>
+<h4 id="1-praegende_jugendjahre">1. PRAEGENDE_JUGENDJAHRE</h4>
+<p>This variable combines decade and movement trend.<br />
+I created:</p>
+<ul>
+<li>PJJ_DECADE (ordinal decade variable)</li>
+<li>PJJ_MOVEMENT (0 = mainstream, 1 = avantgarde)</li>
+</ul>
+<h4 id="2-cameo_intl_2015">2. CAMEO_INTL_2015</h4>
+<p>Each two-digit category encodes:</p>
+<ul>
+<li>Wealth (tens digit)</li>
+<li>Lifestage (ones digit)</li>
+</ul>
+<p>I created:</p>
+<ul>
+<li>CAMEO_WEALTH</li>
+<li>CAMEO_LIFESTAGE</li>
+</ul>
+<p>Both original mixed features were removed after encoding to prevent
+redundancy.</p>
+</section>
+<div class="cell code" data-execution_count="26"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:146}"
+id="YztZvcHSVaXo" data-outputId="383b8857-d32f-4ad1-cd77-9e9441099bac">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>azdias_mixed.dtypes.value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>float64</th>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>int64</th>
+      <td>22</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell markdown" id="VDcH72GhmK3V">
+<p>Discussion: Final Feature Set</p>
+<p>The final cleaned dataset now includes:</p>
+<p>All numeric/ordinal variables</p>
+<p>Binary categorical variables</p>
+<p>Engineered mixed-type features (PJJ_DECADE, PJJ_MOVEMENT,
+CAMEO_WEALTH, CAMEO_LIFESTAGE)</p>
+<p>No dropped multi-level categoricals</p>
+<p>No original mixed-type columns</p>
+<p>This ensures the input to PCA is purely numerical, consistent, and
+free of redundant or improperly encoded fields.</p>
+</div>
+<div class="cell code" data-execution_count="29" id="DN9gbeGNVtU6">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_data(df):</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Perform feature trimming, re-encoding, and engineering for demographics data.</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="co">    INPUT:</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="co">        df - Raw demographics DataFrame</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a><span class="co">    OUTPUT:</span></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a><span class="co">        Cleaned DataFrame ready for PCA + Clustering</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> ast</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.copy()</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># -----------------------------------------</span></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># STEP 1 — Replace missing/unknown codes</span></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># -----------------------------------------</span></span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> idx, row <span class="kw">in</span> feat_info.iterrows():</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a>        col <span class="op">=</span> row[<span class="st">&quot;attribute&quot;</span>]</span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>        raw_codes <span class="op">=</span> row[<span class="st">&quot;missing_or_unknown&quot;</span>]</span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-27"><a href="#cb36-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> pd.isna(raw_codes) <span class="kw">or</span> raw_codes.strip() <span class="op">==</span> <span class="st">&quot;&quot;</span>:</span>
+<span id="cb36-28"><a href="#cb36-28" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb36-29"><a href="#cb36-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-30"><a href="#cb36-30" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Parse list-like strings safely</span></span>
+<span id="cb36-31"><a href="#cb36-31" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> raw_codes.startswith(<span class="st">&quot;[&quot;</span>) <span class="kw">and</span> raw_codes.endswith(<span class="st">&quot;]&quot;</span>):</span>
+<span id="cb36-32"><a href="#cb36-32" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> raw_codes.strip(<span class="st">&quot;[]&quot;</span>).split(<span class="st">&quot;,&quot;</span>)</span>
+<span id="cb36-33"><a href="#cb36-33" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> [c.strip().strip(<span class="st">&quot;&#39;&quot;</span>).strip(<span class="st">&#39;&quot;&#39;</span>) <span class="cf">for</span> c <span class="kw">in</span> codes]</span>
+<span id="cb36-34"><a href="#cb36-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb36-35"><a href="#cb36-35" aria-hidden="true" tabindex="-1"></a>            codes <span class="op">=</span> [raw_codes.strip()]</span>
+<span id="cb36-36"><a href="#cb36-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-37"><a href="#cb36-37" aria-hidden="true" tabindex="-1"></a>        fixed_codes <span class="op">=</span> []</span>
+<span id="cb36-38"><a href="#cb36-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> c <span class="kw">in</span> codes:</span>
+<span id="cb36-39"><a href="#cb36-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">try</span>:</span>
+<span id="cb36-40"><a href="#cb36-40" aria-hidden="true" tabindex="-1"></a>                fixed_codes.append(<span class="bu">int</span>(c))</span>
+<span id="cb36-41"><a href="#cb36-41" aria-hidden="true" tabindex="-1"></a>            <span class="cf">except</span>:</span>
+<span id="cb36-42"><a href="#cb36-42" aria-hidden="true" tabindex="-1"></a>                fixed_codes.append(c)</span>
+<span id="cb36-43"><a href="#cb36-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-44"><a href="#cb36-44" aria-hidden="true" tabindex="-1"></a>        df[col] <span class="op">=</span> df[col].replace(fixed_codes, np.nan)</span>
+<span id="cb36-45"><a href="#cb36-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-46"><a href="#cb36-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-47"><a href="#cb36-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-48"><a href="#cb36-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># STEP 2 — Drop columns with excessive missingness</span></span>
+<span id="cb36-49"><a href="#cb36-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-50"><a href="#cb36-50" aria-hidden="true" tabindex="-1"></a>    missing_perc <span class="op">=</span> df.isna().mean()</span>
+<span id="cb36-51"><a href="#cb36-51" aria-hidden="true" tabindex="-1"></a>    high_missing_cols <span class="op">=</span> missing_perc[missing_perc <span class="op">&gt;</span> <span class="fl">0.30</span>].index.tolist()</span>
+<span id="cb36-52"><a href="#cb36-52" aria-hidden="true" tabindex="-1"></a>    df.drop(columns<span class="op">=</span>high_missing_cols, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb36-53"><a href="#cb36-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-54"><a href="#cb36-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-55"><a href="#cb36-55" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-56"><a href="#cb36-56" aria-hidden="true" tabindex="-1"></a>    <span class="co"># STEP 3 — Drop multi-level categorical features</span></span>
+<span id="cb36-57"><a href="#cb36-57" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-58"><a href="#cb36-58" aria-hidden="true" tabindex="-1"></a>    multi_categoricals <span class="op">=</span> [</span>
+<span id="cb36-59"><a href="#cb36-59" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;CJT_GESAMTTYP&quot;</span>,</span>
+<span id="cb36-60"><a href="#cb36-60" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;FINANZTYP&quot;</span>,</span>
+<span id="cb36-61"><a href="#cb36-61" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;GFK_URLAUBERTYP&quot;</span>,</span>
+<span id="cb36-62"><a href="#cb36-62" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;LP_FAMILIE_FEIN&quot;</span>,</span>
+<span id="cb36-63"><a href="#cb36-63" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;LP_FAMILIE_GROB&quot;</span>,</span>
+<span id="cb36-64"><a href="#cb36-64" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;LP_STATUS_FEIN&quot;</span>,</span>
+<span id="cb36-65"><a href="#cb36-65" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;LP_STATUS_GROB&quot;</span>,</span>
+<span id="cb36-66"><a href="#cb36-66" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;NATIONALITAET_KZ&quot;</span>,</span>
+<span id="cb36-67"><a href="#cb36-67" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;SHOPPER_TYP&quot;</span>,</span>
+<span id="cb36-68"><a href="#cb36-68" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;ZABEOTYP&quot;</span>,</span>
+<span id="cb36-69"><a href="#cb36-69" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;GEBAEUDETYP&quot;</span>,</span>
+<span id="cb36-70"><a href="#cb36-70" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;CAMEO_DEUG_2015&quot;</span>,</span>
+<span id="cb36-71"><a href="#cb36-71" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;CAMEO_DEU_2015&quot;</span></span>
+<span id="cb36-72"><a href="#cb36-72" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb36-73"><a href="#cb36-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-74"><a href="#cb36-74" aria-hidden="true" tabindex="-1"></a>    df.drop(columns<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> multi_categoricals <span class="cf">if</span> c <span class="kw">in</span> df.columns],</span>
+<span id="cb36-75"><a href="#cb36-75" aria-hidden="true" tabindex="-1"></a>            inplace<span class="op">=</span><span class="va">True</span>, errors<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb36-76"><a href="#cb36-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-77"><a href="#cb36-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-78"><a href="#cb36-78" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-79"><a href="#cb36-79" aria-hidden="true" tabindex="-1"></a>    <span class="co"># STEP 4 — Re-encode binary categoricals</span></span>
+<span id="cb36-80"><a href="#cb36-80" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-81"><a href="#cb36-81" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&quot;OST_WEST_KZ&quot;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb36-82"><a href="#cb36-82" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">&quot;OST_WEST_KZ&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;OST_WEST_KZ&quot;</span>].replace({<span class="st">&quot;W&quot;</span>: <span class="dv">1</span>, <span class="st">&quot;O&quot;</span>: <span class="dv">0</span>})</span>
+<span id="cb36-83"><a href="#cb36-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-84"><a href="#cb36-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-85"><a href="#cb36-85" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-86"><a href="#cb36-86" aria-hidden="true" tabindex="-1"></a>    <span class="co"># STEP 5 — Mixed-type feature engineering</span></span>
+<span id="cb36-87"><a href="#cb36-87" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ---------------------------------------------------</span></span>
+<span id="cb36-88"><a href="#cb36-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-89"><a href="#cb36-89" aria-hidden="true" tabindex="-1"></a>    <span class="co"># PRAEGENDE_JUGENDJAHRE</span></span>
+<span id="cb36-90"><a href="#cb36-90" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb36-91"><a href="#cb36-91" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">&quot;PJJ_DECADE&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>].<span class="bu">apply</span>(</span>
+<span id="cb36-92"><a href="#cb36-92" aria-hidden="true" tabindex="-1"></a>            <span class="kw">lambda</span> v: <span class="bu">int</span>(v) <span class="op">//</span> <span class="dv">10</span> <span class="cf">if</span> pd.notna(v) <span class="cf">else</span> np.nan</span>
+<span id="cb36-93"><a href="#cb36-93" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb36-94"><a href="#cb36-94" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">&quot;PJJ_MOVEMENT&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>].<span class="bu">apply</span>(</span>
+<span id="cb36-95"><a href="#cb36-95" aria-hidden="true" tabindex="-1"></a>            <span class="kw">lambda</span> v: <span class="bu">int</span>(v) <span class="op">%</span> <span class="dv">2</span> <span class="cf">if</span> pd.notna(v) <span class="cf">else</span> np.nan</span>
+<span id="cb36-96"><a href="#cb36-96" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb36-97"><a href="#cb36-97" aria-hidden="true" tabindex="-1"></a>        df.drop(columns<span class="op">=</span>[<span class="st">&quot;PRAEGENDE_JUGENDJAHRE&quot;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb36-98"><a href="#cb36-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-99"><a href="#cb36-99" aria-hidden="true" tabindex="-1"></a>    <span class="co"># CAMEO_INTL_2015</span></span>
+<span id="cb36-100"><a href="#cb36-100" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&quot;CAMEO_INTL_2015&quot;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb36-101"><a href="#cb36-101" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> cameo_wealth(v):</span>
+<span id="cb36-102"><a href="#cb36-102" aria-hidden="true" tabindex="-1"></a>            <span class="cf">try</span>:</span>
+<span id="cb36-103"><a href="#cb36-103" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="bu">int</span>(<span class="bu">str</span>(v)[<span class="dv">0</span>])</span>
+<span id="cb36-104"><a href="#cb36-104" aria-hidden="true" tabindex="-1"></a>            <span class="cf">except</span>:</span>
+<span id="cb36-105"><a href="#cb36-105" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> np.nan</span>
+<span id="cb36-106"><a href="#cb36-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-107"><a href="#cb36-107" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> cameo_lifestage(v):</span>
+<span id="cb36-108"><a href="#cb36-108" aria-hidden="true" tabindex="-1"></a>            <span class="cf">try</span>:</span>
+<span id="cb36-109"><a href="#cb36-109" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="bu">int</span>(<span class="bu">str</span>(v)[<span class="dv">1</span>])</span>
+<span id="cb36-110"><a href="#cb36-110" aria-hidden="true" tabindex="-1"></a>            <span class="cf">except</span>:</span>
+<span id="cb36-111"><a href="#cb36-111" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> np.nan</span>
+<span id="cb36-112"><a href="#cb36-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-113"><a href="#cb36-113" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">&quot;CAMEO_WEALTH&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>].<span class="bu">apply</span>(cameo_wealth)</span>
+<span id="cb36-114"><a href="#cb36-114" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">&quot;CAMEO_LIFESTAGE&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>].<span class="bu">apply</span>(cameo_lifestage)</span>
+<span id="cb36-115"><a href="#cb36-115" aria-hidden="true" tabindex="-1"></a>        df.drop(columns<span class="op">=</span>[<span class="st">&quot;CAMEO_INTL_2015&quot;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb36-116"><a href="#cb36-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-117"><a href="#cb36-117" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Xm6DO4jBV3Al" data-outputId="ad18ec5e-cf25-4c2d-8586-aa205d94f0f2">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>cleaned_azdias <span class="op">=</span> clean_data(azdias)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>cleaned_azdias.shape</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/tmp/ipython-input-3059336522.py:82: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option(&#39;future.no_silent_downcasting&#39;, True)`
+  df[&quot;OST_WEST_KZ&quot;] = df[&quot;OST_WEST_KZ&quot;].replace({&quot;W&quot;: 1, &quot;O&quot;: 0})
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>(891221, 68)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="gFx1agRdV_s7" data-outputId="5dc34fb2-b52c-4822-e36c-2836d868825e">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> SimpleImputer</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Separate the cleaned data</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>azdias_clean <span class="op">=</span> cleaned_azdias.copy()</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Impute missing values (median strategy)</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>imputer <span class="op">=</span> SimpleImputer(strategy<span class="op">=</span><span class="st">&quot;median&quot;</span>)</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>azdias_imputed <span class="op">=</span> imputer.fit_transform(azdias_clean)</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Scale features</span></span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>azdias_scaled <span class="op">=</span> scaler.fit_transform(azdias_imputed)</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>azdias_scaled.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>(891221, 68)</code></pre>
+</div>
+</div>
+<section id="discussion--feature-scaling" class="cell markdown"
+id="OHpngJWmmhF9">
+<h3>Discussion — Feature Scaling</h3>
+<p>Remaining NaN values were imputed using a median strategy, which is
+robust to skew.<br />
+A StandardScaler was then applied, standardizing all features to mean 0
+and variance 1.</p>
+<p>Since PCA is variance-driven, failing to scale features would cause
+large-range variables to dominate.</p>
+<p>The scaler fitted on the general population was stored and reused on
+the customer dataset to ensure consistency.</p>
+</section>
+<div class="cell code" data-execution_count="32"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:975}"
+id="YlGK8FaYWKlx" data-outputId="2b470002-3221-40b3-930f-34953cf60bed">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit PCA on all components</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>pca_full <span class="op">=</span> PCA()</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>pca_full.fit(azdias_scaled)</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Variance ratios</span></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>var_ratio <span class="op">=</span> pca_full.explained_variance_ratio_</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>cum_var_ratio <span class="op">=</span> np.cumsum(var_ratio)</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot explained variance</span></span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>plt.plot(var_ratio, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Variance Explained by Each Principal Component&quot;</span>)</span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Component Index&quot;</span>)</span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Variance Ratio&quot;</span>)</span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-22"><a href="#cb42-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot cumulative explained variance</span></span>
+<span id="cb42-23"><a href="#cb42-23" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb42-24"><a href="#cb42-24" aria-hidden="true" tabindex="-1"></a>plt.plot(cum_var_ratio, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb42-25"><a href="#cb42-25" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Cumulative Variance Explained&quot;</span>)</span>
+<span id="cb42-26"><a href="#cb42-26" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Component Index&quot;</span>)</span>
+<span id="cb42-27"><a href="#cb42-27" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Cumulative Variance Ratio&quot;</span>)</span>
+<span id="cb42-28"><a href="#cb42-28" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb42-29"><a href="#cb42-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/aa82601e64ba2ba6c3bf8617d256733d65bc1065.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/db545887d734c43839d1efc2ec2c1fbb15cd7d73.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="33"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="AaQXf2C4WsHP" data-outputId="6674f794-5df0-4dec-a16d-1dffdc65a133">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Final PCA model with 30 components</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">30</span>)</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>azdias_pca <span class="op">=</span> pca.fit_transform(azdias_scaled)</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>azdias_pca.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>(891221, 30)</code></pre>
+</div>
+</div>
+<section id="discussion--pca-component-selection" class="cell markdown"
+id="sUe9CV6jm2Uo">
+<h3>Discussion — PCA Component Selection</h3>
+<p>PCA was applied to the scaled dataset.<br />
+Explained variance showed a smooth decline without sharp elbows,
+indicating a complex feature space.</p>
+<p>I retained 30 components, which explained a substantial portion of
+overall variance and produced stable clusters during testing.</p>
+<p>A new PCA model was fit using n_components = 30 for all downstream
+analysis.</p>
+</section>
+<div class="cell code" data-execution_count="35" id="oUYdijqVWxdv">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build a dataframe linking components to feature names</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>pca_components <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    pca.components_,</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>    columns<span class="op">=</span>cleaned_azdias.columns</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> show_top_features(pc_index, top_n<span class="op">=</span><span class="dv">10</span>):</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a><span class="co">    Print the strongest positive and negative feature weights for a given PC.</span></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>    comp <span class="op">=</span> pca_components.iloc[pc_index]</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>    sorted_comp <span class="op">=</span> comp.sort_values()</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">=== Principal Component </span><span class="sc">{</span>pc_index<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss"> ===&quot;</span>)</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Most Negative Loadings:&quot;</span>)</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(sorted_comp.head(top_n))</span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Most Positive Loadings:&quot;</span>)</span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(sorted_comp.tail(top_n))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6vbC6-0iW3bi" data-outputId="5ffffd09-14a2-467b-8368-4c5a09610c00">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>show_top_features(<span class="dv">0</span>)  <span class="co"># PC1</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>show_top_features(<span class="dv">1</span>)  <span class="co"># PC2</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>show_top_features(<span class="dv">2</span>)  <span class="co"># PC3</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+=== Principal Component 1 ===
+
+Most Negative Loadings:
+PLZ8_ANTG3           -0.229027
+PLZ8_ANTG4           -0.222991
+PLZ8_BAUMAX          -0.209599
+ORTSGR_KLS9          -0.203181
+EWDICHTE             -0.201986
+CAMEO_WEALTH         -0.201801
+HH_EINKOMMEN_SCORE   -0.168424
+FINANZ_HAUSBAUER     -0.161137
+PLZ8_ANTG2           -0.156844
+KBA05_ANTG4          -0.150802
+Name: 0, dtype: float64
+
+Most Positive Loadings:
+LP_LEBENSPHASE_GROB    0.129791
+LP_LEBENSPHASE_FEIN    0.143152
+INNENSTADT             0.167631
+PLZ8_GBZ               0.169832
+KONSUMNAEHE            0.170050
+FINANZ_MINIMALIST      0.199488
+KBA05_GBZ              0.214057
+KBA05_ANTG1            0.218542
+PLZ8_ANTG1             0.228507
+MOBI_REGIO             0.238907
+Name: 0, dtype: float64
+
+=== Principal Component 2 ===
+
+Most Negative Loadings:
+FINANZ_SPARER           -0.264026
+SEMIO_REL               -0.257139
+SEMIO_PFLICHT           -0.251484
+SEMIO_TRADV             -0.241736
+FINANZ_UNAUFFAELLIGER   -0.237792
+PJJ_DECADE              -0.231347
+FINANZ_ANLEGER          -0.228724
+SEMIO_RAT               -0.200211
+SEMIO_KULT              -0.196788
+SEMIO_FAM               -0.179722
+Name: 1, dtype: float64
+
+Most Positive Loadings:
+ORTSGR_KLS9             0.074301
+FINANZ_HAUSBAUER        0.095370
+FINANZ_MINIMALIST       0.104767
+W_KEIT_KIND_HH          0.123960
+PJJ_MOVEMENT            0.131742
+RETOURTYP_BK_S          0.172271
+SEMIO_LUST              0.190569
+SEMIO_ERL               0.228591
+FINANZ_VORSORGER        0.256211
+ALTERSKATEGORIE_GROB    0.277174
+Name: 1, dtype: float64
+
+=== Principal Component 3 ===
+
+Most Negative Loadings:
+SEMIO_VERT          -0.355988
+SEMIO_SOZ           -0.291399
+SEMIO_KULT          -0.278606
+SEMIO_FAM           -0.228187
+FINANZ_MINIMALIST   -0.133899
+RETOURTYP_BK_S      -0.078933
+PJJ_MOVEMENT        -0.074059
+FINANZ_VORSORGER    -0.064967
+W_KEIT_KIND_HH      -0.064177
+SEMIO_MAT           -0.063789
+Name: 2, dtype: float64
+
+Most Positive Loadings:
+SEMIO_PFLICHT            0.052541
+FINANZ_SPARER            0.087209
+FINANZ_UNAUFFAELLIGER    0.104384
+SEMIO_ERL                0.174125
+FINANZ_ANLEGER           0.179932
+SEMIO_RAT                0.180740
+SEMIO_KRIT               0.310244
+SEMIO_DOM                0.331465
+ANREDE_KZ                0.356379
+SEMIO_KAEM               0.358234
+Name: 2, dtype: float64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="LS3XKKwOXh-U">
+<p><strong>Interpretation of Principal Components</strong></p>
+<p><strong>🟦 Principal Component 1 — Urban vs. Rural
+Affluence</strong></p>
+<p>Strong negative loadings:</p>
+<p>PLZ8_ANTG3, PLZ8_ANTG4, PLZ8_BAUMAX</p>
+<p>EWDICHTE (population density)</p>
+<p>CAMEO_WEALTH (wealth level)</p>
+<p>HH_EINKOMMEN_SCORE</p>
+<p>Strong positive loadings:</p>
+<p>MOBI_REGIO, PLZ8_ANTG1, KBA05_GBZ</p>
+<p>LP_LEBENSPHASE_FEIN/GROB</p>
+<p>KONSUMNAEHE</p>
+<p><strong>🔍 Interpretation</strong>: PC1 differentiates rural,
+low-density, lower-wealth households (negative) from urban, mobile,
+higher-income, dynamic life-stage households (positive).</p>
+<p><strong>🟩 Principal Component 2 — Tradition vs. Modernity &amp;
+Family Orientation</strong></p>
+<p>Strong negative loadings:</p>
+<p>FINANZ_SPARER, FINANZ_UNAUFFAELLIGER</p>
+<p>SEMIO_TRADV, SEMIO_PFLICHT, SEMIO_REL</p>
+<p>PJJ_DECADE (older generations)</p>
+<p>Strong positive loadings:</p>
+<p>W_KEIT_KIND_HH</p>
+<p>SEMIO_LUST, SEMIO_ERL</p>
+<p>FINANZ_VORSORGER</p>
+<p>ALTERSKATEGORIE_GROB (younger)</p>
+<p><strong>🔍 Interpretation</strong>: PC2 contrasts traditional, older,
+conservative individuals with younger, modern, family-oriented
+households.</p>
+<p><strong>🟧 Principal Component 3 — Social vs.
+Assertive/Individualistic Values</strong></p>
+<p>Strong negative loadings:</p>
+<p>SEMIO_VERT, SEMIO_SOZ, SEMIO_KULT</p>
+<p>SEMIO_FAM</p>
+<p>Strong positive loadings:</p>
+<p>SEMIO_DOM, SEMIO_KAEM (dominant/competitive)</p>
+<p>SEMIO_KRIT (critical thinking)</p>
+<p>ANREDE_KZ (gender influence)</p>
+<p><strong>🔍 Interpretation</strong>: PC3 distinguishes
+community-oriented, family-focused personalities from assertive,
+competitive, individualistic profiles.</p>
+<p><strong>⭐ Summary</strong></p>
+<p>PC1: Urbanization &amp; economic affluence</p>
+<p>PC2: Traditional vs. modern &amp; family dynamics</p>
+<p>PC3: Communal vs. individualistic/competitive value systems</p>
+</div>
+<div class="cell code" data-execution_count="37"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:808}"
+id="JD_bhpWMXm-8" data-outputId="6079c405-518a-45c6-be37-a3880b7d537a">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>cluster_range <span class="op">=</span> <span class="bu">range</span>(<span class="dv">3</span>, <span class="dv">21</span>)</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>inertia_values <span class="op">=</span> []</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> k <span class="kw">in</span> cluster_range:</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Training k=</span><span class="sc">{</span>k<span class="sc">}</span><span class="ss">...&quot;</span>)</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>    km <span class="op">=</span> KMeans(n_clusters<span class="op">=</span>k, random_state<span class="op">=</span><span class="dv">42</span>, n_init<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>    km.fit(azdias_pca)</span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>    inertia_values.append(km.inertia_)</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot elbow curve</span></span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">5</span>))</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>plt.plot(cluster_range, inertia_values, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Elbow Curve: K-Means Inertia vs Number of Clusters&quot;</span>)</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Number of Clusters (k)&quot;</span>)</span>
+<span id="cb48-19"><a href="#cb48-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Inertia (Sum of Squared Distances)&quot;</span>)</span>
+<span id="cb48-20"><a href="#cb48-20" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training k=3...
+Training k=4...
+Training k=5...
+Training k=6...
+Training k=7...
+Training k=8...
+Training k=9...
+Training k=10...
+Training k=11...
+Training k=12...
+Training k=13...
+Training k=14...
+Training k=15...
+Training k=16...
+Training k=17...
+Training k=18...
+Training k=19...
+Training k=20...
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ee23a07011bb435f92aedd388db9ba22/318402af051bc21219294bfe24216649a25147ec.png" /></p>
+</div>
+</div>
+<section id="discussion--clustering-the-general-population"
+class="cell markdown" id="jEdKORLBnrNJ">
+<h3>Discussion — Clustering the General Population</h3>
+<p>KMeans models were evaluated for a range of cluster sizes.<br />
+The average within-cluster distance decreased steadily with diminishing
+returns after ~12 clusters.</p>
+<p>Thus, K = 12 provided a balance between granularity and
+stability.<br />
+This model was used for both the general population and the customer
+demographic projections.</p>
+</section>
+<div class="cell code" data-execution_count="38"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="gKnPGVl8hTTc" data-outputId="a26ce1f9-8b51-4fae-8068-98cc580af270">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Final KMeans model</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>k_final <span class="op">=</span> <span class="dv">12</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters<span class="op">=</span>k_final, random_state<span class="op">=</span><span class="dv">42</span>, n_init<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit on PCA-transformed general population data</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>kmeans.fit(azdias_pca)</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Get cluster assignments</span></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>azdias_clusters <span class="op">=</span> kmeans.predict(azdias_pca)</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Show distribution</span></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>unique, counts <span class="op">=</span> np.unique(azdias_clusters, return_counts<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a><span class="bu">list</span>(<span class="bu">zip</span>(unique, counts))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>[(np.int32(0), np.int64(82942)),
+ (np.int32(1), np.int64(105282)),
+ (np.int32(2), np.int64(79153)),
+ (np.int32(3), np.int64(60956)),
+ (np.int32(4), np.int64(81265)),
+ (np.int32(5), np.int64(78069)),
+ (np.int32(6), np.int64(58237)),
+ (np.int32(7), np.int64(98099)),
+ (np.int32(8), np.int64(82612)),
+ (np.int32(9), np.int64(91620)),
+ (np.int32(10), np.int64(3463)),
+ (np.int32(11), np.int64(69523))]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="42"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ygDn_idViD2u" data-outputId="4547f80c-a9d7-4c80-b36d-79cdad7e8e15">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>final_columns <span class="op">=</span> cleaned_azdias.columns.tolist()</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(final_columns)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="42">
+<pre><code>68</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="43"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="PlZX0FD8iFfV" data-outputId="f49175de-4eff-4236-fc09-887414838ae2">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean customer data</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>customers_clean <span class="op">=</span> clean_data(customers)</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Align to general population columns</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>customers_clean <span class="op">=</span> customers_clean.reindex(columns<span class="op">=</span>final_columns)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/tmp/ipython-input-3059336522.py:82: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option(&#39;future.no_silent_downcasting&#39;, True)`
+  df[&quot;OST_WEST_KZ&quot;] = df[&quot;OST_WEST_KZ&quot;].replace({&quot;W&quot;: 1, &quot;O&quot;: 0})
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="44"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="SprnW_fpiGum" data-outputId="4c85b5b0-b6a9-4ab2-b404-e006a13513f4">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Load customers</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>customers <span class="op">=</span> pd.read_csv(CUSTOMERS_PATH, sep<span class="op">=</span><span class="st">&quot;;&quot;</span>)</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Clean customers with same cleaning logic</span></span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>customers_clean <span class="op">=</span> clean_data(customers)</span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-7"><a href="#cb56-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Align customer columns to general population feature set</span></span>
+<span id="cb56-8"><a href="#cb56-8" aria-hidden="true" tabindex="-1"></a>final_columns <span class="op">=</span> cleaned_azdias.columns.tolist()</span>
+<span id="cb56-9"><a href="#cb56-9" aria-hidden="true" tabindex="-1"></a>customers_clean <span class="op">=</span> customers_clean.reindex(columns<span class="op">=</span>final_columns)</span>
+<span id="cb56-10"><a href="#cb56-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-11"><a href="#cb56-11" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Impute</span></span>
+<span id="cb56-12"><a href="#cb56-12" aria-hidden="true" tabindex="-1"></a>customers_imputed <span class="op">=</span> imputer.transform(customers_clean)</span>
+<span id="cb56-13"><a href="#cb56-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-14"><a href="#cb56-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Scale</span></span>
+<span id="cb56-15"><a href="#cb56-15" aria-hidden="true" tabindex="-1"></a>customers_scaled <span class="op">=</span> scaler.transform(customers_imputed)</span>
+<span id="cb56-16"><a href="#cb56-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-17"><a href="#cb56-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. PCA</span></span>
+<span id="cb56-18"><a href="#cb56-18" aria-hidden="true" tabindex="-1"></a>customers_pca <span class="op">=</span> pca.transform(customers_scaled)</span>
+<span id="cb56-19"><a href="#cb56-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-20"><a href="#cb56-20" aria-hidden="true" tabindex="-1"></a><span class="co"># 7. Predict clusters</span></span>
+<span id="cb56-21"><a href="#cb56-21" aria-hidden="true" tabindex="-1"></a>customer_clusters <span class="op">=</span> kmeans.predict(customers_pca)</span>
+<span id="cb56-22"><a href="#cb56-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-23"><a href="#cb56-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Show distribution</span></span>
+<span id="cb56-24"><a href="#cb56-24" aria-hidden="true" tabindex="-1"></a>unique_c, counts_c <span class="op">=</span> np.unique(customer_clusters, return_counts<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb56-25"><a href="#cb56-25" aria-hidden="true" tabindex="-1"></a><span class="bu">list</span>(<span class="bu">zip</span>(unique_c, counts_c))</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/tmp/ipython-input-3059336522.py:82: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option(&#39;future.no_silent_downcasting&#39;, True)`
+  df[&quot;OST_WEST_KZ&quot;] = df[&quot;OST_WEST_KZ&quot;].replace({&quot;W&quot;: 1, &quot;O&quot;: 0})
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="44">
+<pre><code>[(np.int32(0), np.int64(46850)),
+ (np.int32(1), np.int64(23613)),
+ (np.int32(2), np.int64(56477)),
+ (np.int32(3), np.int64(1129)),
+ (np.int32(4), np.int64(15827)),
+ (np.int32(5), np.int64(1439)),
+ (np.int32(6), np.int64(8107)),
+ (np.int32(7), np.int64(13474)),
+ (np.int32(8), np.int64(15966)),
+ (np.int32(9), np.int64(2434)),
+ (np.int32(10), np.int64(2916)),
+ (np.int32(11), np.int64(3420))]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="45"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="TL0YcMreiiTC" data-outputId="e9dfe06f-4992-4943-b8b8-4955a9e7f5b5">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> cluster, count <span class="kw">in</span> <span class="bu">zip</span>(unique_c, counts_c):</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Cluster </span><span class="sc">{</span>cluster<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>count<span class="sc">}</span><span class="ss"> customers&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Cluster 0: 46850 customers
+Cluster 1: 23613 customers
+Cluster 2: 56477 customers
+Cluster 3: 1129 customers
+Cluster 4: 15827 customers
+Cluster 5: 1439 customers
+Cluster 6: 8107 customers
+Cluster 7: 13474 customers
+Cluster 8: 15966 customers
+Cluster 9: 2434 customers
+Cluster 10: 2916 customers
+Cluster 11: 3420 customers
+</code></pre>
+</div>
+</div>
+<section
+id="discussion--customer-vs-general-population-cluster-comparison"
+class="cell markdown" id="vhMVDSGBn73C">
+<h3>Discussion — Customer vs General Population Cluster Comparison</h3>
+<p>A comparison of cluster frequencies revealed distinct customer
+preferences.</p>
+<h4
+id="overrepresented-clusters-high-customer-share-vs-population-share"><strong>Overrepresented
+Clusters (high customer share vs population share)</strong></h4>
+<ul>
+<li><strong>Cluster 0</strong><br />
+</li>
+<li><strong>Cluster 2</strong><br />
+</li>
+<li><strong>Cluster 8</strong></li>
+</ul>
+<p>These groups appear to represent:</p>
+<ul>
+<li>Higher consumer engagement<br />
+</li>
+<li>Urban or suburban households<br />
+</li>
+<li>More active lifestyle indicators<br />
+</li>
+<li>Higher responsiveness to marketing</li>
+</ul>
+<p>These clusters form the company’s strongest target segments.</p>
+<h4 id="underrepresented-clusters"><strong>Underrepresented
+Clusters</strong></h4>
+<ul>
+<li><strong>Clusters 3, 5, 9, 10, 11</strong></li>
+</ul>
+<p>These groups tend to align with:</p>
+<ul>
+<li>Rural or low-density areas<br />
+</li>
+<li>Traditional, low-consumption psychographics<br />
+</li>
+<li>Lower digital engagement and mobility</li>
+</ul>
+<p>They represent weaker potential for mail-order sales campaigns.</p>
+<h4 id="conclusion"><strong>Conclusion</strong></h4>
+<p>The clustering analysis reveals clear demographic patterns that
+differentiate customers from the general population. Marketing campaigns
+should prioritize clusters 0, 2, and 8, while reducing focus on the
+underrepresented clusters.</p>
+</section>
+</body>
+</html>
